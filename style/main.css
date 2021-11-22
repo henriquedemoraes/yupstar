@@ -1,3 +1,250 @@
+body {
+  font-family: "Inter", sans-serif;
+}
 
+@font-face {
+  font-family: "yupstar";
+  src: url("../fonts/yupstar.eot?q9xr5");
+  src: url("../fonts/yupstar.eot?q9xr5#iefix") format("embedded-opentype"), url("../fonts/yupstar.ttf?q9xr5") format("truetype"), url("../fonts/yupstar.woff?q9xr5") format("woff"), url("../fonts/yupstar.svg?q9xr5#yupstar") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "yupstar" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+
+.icon-wheel:before {
+  content: "\e901";
+}
+
+.icon-close:before {
+  content: "\e902";
+}
+
+.icon-facebook:before {
+  content: "\e903";
+}
+
+.icon-instagram:before {
+  content: "\e904";
+}
+
+.icon-messenger:before {
+  content: "\e905";
+}
+
+.icon-twitter:before {
+  content: "\e906";
+}
+
+.icon-newsletter:before {
+  content: "\e907";
+}
+
+.icon-userLove:before {
+  content: "\e908";
+}
+
+.icon-cloud:before {
+  content: "\e909";
+}
+
+.icon-sun:before {
+  content: "\e90a";
+}
+
+.icon-happy:before {
+  content: "\e90b";
+}
+
+.icon-info:before {
+  content: "\e90c";
+}
+
+.icon-menu:before {
+  content: "\e90d";
+}
+
+.icon-close1:before {
+  content: "\e90e";
+}
+
+.icon-cloud1:before {
+  content: "\e90f";
+}
+
+.icon-facebook1:before {
+  content: "\e910";
+}
+
+.icon-happy1:before {
+  content: "\e911";
+}
+
+.icon-info1:before {
+  content: "\e912";
+}
+
+.icon-instagram1:before {
+  content: "\e913";
+}
+
+.icon-linkedin1:before {
+  content: "\e914";
+}
+
+.icon-menu1:before {
+  content: "\e915";
+}
+
+.icon-messenger1:before {
+  content: "\e916";
+}
+
+.icon-newsletter1:before {
+  content: "\e917";
+}
+
+.icon-sun1:before {
+  content: "\e918";
+}
+
+.icon-userLove1:before {
+  content: "\e919";
+}
+
+.icon-wheel1:before {
+  content: "\e91a";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #00b1ff;
+  padding: 10px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(25, 26, 26, 0.08);
+}
+header .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 24px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 91px;
+}
+
+.primary-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #374ea2;
+  text-decoration: none;
+}
+
+.action-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  box-shadow: 0px 2px 4px rgba(25, 26, 26, 0.08);
+  border-radius: 9px;
+  border: 1px solid transparent;
+  padding: 16px 24px;
+  font-size: 18px;
+  line-height: 24px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.btn .icon {
+  opacity: 0.6;
+}
+.btn.sm {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 16px;
+}
+.btn.neutral-btn {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  color: #374ea2;
+}
+.btn.neutral-btn .icon {
+  opacity: 1;
+  color: #00b1ff;
+}
+.btn.outline-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+.btn.primary-btn {
+  background: #f43482;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  color: #fff;
+}
+
+.main-hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-hero .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #fff;
+  border: 4px dashed #ffffff;
+  border-radius: 24px;
+  max-width: 680px;
+  margin: 0 auto;
+  gap: 16px;
+  text-align: center;
+}
+.main-hero::before {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background: url("../img/hero-bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=main.css.map */

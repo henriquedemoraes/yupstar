@@ -7,7 +7,7 @@
   "author": "Vitor Pinho <hi@vitor.mobi>",
   "license": "MIT",
   "scripts": {
-    "scss": "sass --watch styles/index.scss styles/main.css"
+    "scss": "sass --watch style/main.scss style/main.css"
   },
   "dependencies": {
     "sass": "^1.43.4"
