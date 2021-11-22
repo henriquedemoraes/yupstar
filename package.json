@@ -1,0 +1,15 @@
+{
+  "name": "yupstar",
+  "version": "1.0.0",
+  "description": "New Yupstar website",
+  "main": "index.html",
+  "repository": "https://github.com/henriquedemoraes/yupstar.git",
+  "author": "Vitor Pinho <hi@vitor.mobi>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass --watch styles/index.scss styles/main.css"
+  },
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
