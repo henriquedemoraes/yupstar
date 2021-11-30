@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -43,7 +43,7 @@
     <!-- Hero Section -->
 
     <section class="main-hero">
-      <div class="main-content">
+      <div class="internal-content">
         <h1>Olá, bem-vindo a YupStar!</h1>
         <p>Aqui a felicidade está sempre nas alturas.</p>
         <div class="action-holder">
@@ -56,63 +56,69 @@
 
     <!-- Wheel Navigation -->
 
-    <section class="info-section">
+    <section class="info-section dark-blue">
       <!-- Wheel NAV -->
-      <div class="wheel-nav">
+      <div class="wheel-nav oriented">
         <!-- Wheel Card -->
         <div class="wheel-card rio">
           <a href="#" class="full-link"></a>
           <div class="wheel-content">
-            <h2>
+            <h2 class="heading-6">
               <strong>Rio de Janeiro</strong>A cidade maravilhosa vista de cima.
             </h2>
             <p>Ingressos e mais informações</p>
           </div>
-          <span class="arrow-link" class="icon icon-arrowright"></span>
+          <span class="arrow-link icon icon-arrow-right"></span>
+          <img src="img/rj.svg" />
         </div>
         <!-- Wheel Card -->
         <div class="wheel-card foz">
           <a href="#" class="full-link"></a>
           <div class="wheel-content">
-            <h2>
+            <h2 class="heading-6">
               <strong>Foz do Iguaçu</strong>A beleza natural vista de cima.
             </h2>
             <p>Ingressos e mais informações</p>
           </div>
-          <span class="arrow-link" class="icon icon-arrowright"></span>
+          <span class="arrow-link icon icon-arrow-right"></span>
+          <img src="img/foz.svg" />
         </div>
       </div>
 
       <div class="main-content">
-        <h3>
+        <img class="detail-before" src="img/detail-1.svg" />
+        <h3 class="heading-4">
           Se surpreender a cada momento. Se divertir a todo o instante. Fechar
           os olhos e sentir que está tocando as nuvens. Para este passeio cheio
           de encanto e magia, todos estão convidados.
         </h3>
         <a class="arrow-link" href="#next-section"
-          ><i class="icon icon-arrowbottom"></i
+          ><i class="icon icon-arrow-bottom"></i
         ></a>
+        <img class="detail-after" src="img/detail-2.svg" />
       </div>
     </section>
 
     <!-- Section Pool -->
 
-    <section class="section-pool">
+    <section id="next-section" class="section-pool">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <div class="image-holder">
-              <img src="/img/wheel-image.png" />
-              <div class="image-holder-detail"></div>
+            <div class="detail-holder">
+              <div class="image-holder">
+                <img src="/img/wheel-image.png" />
+              </div>
+              <img class="image-holder-detail" src="img/image-holder-detail.svg"></img>
             </div>
           </div>
           <div class="col-md-6">
             <div class="pool-content">
-              <h4>
+              <h4 class="heading-5">
                 A Yup Star é diversão para todos aqueles que adoram sentir um
                 friozinho na barriga.
               </h4>
-              <p>
+              <p class="body">
                 Aqui, todo mundo pode voar e dividir essa sensação incrível com
                 quem mais ama.
               </p>
@@ -132,11 +138,13 @@
 
     <section class="custom-image-section">
       <div class="image-section-content">
+        <div class="container">
+          
         <!-- Custom Card-->
         <div class="custom-card">
-          <span class="icon icon-sun"></span>
-          <h4>Emoção em cada detalhe</h4>
-          <p>
+          <span class="icon icon-sun yellow"></span>
+          <h4 class="heading-5">Emoção em cada detalhe</h4>
+          <p class="body">
             Para você ter uma experiência cheia de diversão e alegria, nós
             pensamos em todos os detalhes. Do bem-estar à segurança. Da higiene
             aos produtos que você vai consumir. Aqui, qualquer serviço tem um
@@ -146,6 +154,8 @@
             <a href="#" class="btn neutral-btn">Conheça as rodas</a>
           </div>
         </div>
+
+      </div>
       </div>
     </section>
 
@@ -160,14 +170,14 @@
               <div class="image-holder">
                 <img src="img/dog.png" />
               </div>
-              <span class="icon icon-paw"></span>
-              <h4>Para Todos</h4>
-              <p>
+              <span class="icon icon-paw pink"></span>
+              <h4 class="heading-5">Para Todos</h4>
+              <p class="body">
                 Quando a gente diz que, com a Yup Star todos se divertem, não é
                 só da boca pra fora. Aqui, seu pet também é muito bem-vindo. E
                 conta com a nossa infraestrutura para passar ótimos momentos com
-                você. *Cães de médio e grande porte devem usar focinheira
-                durante o acesso ao parque.
+                você. <i>*Cães de médio e grande porte devem usar focinheira
+                durante o acesso ao parque.</i>
               </p>
             </div>
           </div>
@@ -177,9 +187,9 @@
               <div class="image-holder">
                 <img src="img/park.png" />
               </div>
-              <span class="icon icon-wheel"></span>
-              <h4>A melhor vista da felicidade</h4>
-              <p>
+              <span class="icon icon-wheel blue"></span>
+              <h4 class="heading-5">A melhor vista da felicidade</h4>
+              <p class="body">
                 Lá de cima, a vista da cidade se transforma em felicidade. Você
                 só precisa embarcar nessa emoção. E deixar que a roda-gigante
                 faça o resto.
@@ -191,11 +201,12 @@
           </div>
         </div>
       </div>
+      <img src="img/detail-full.svg" class="full-detail" />
     </section>
 
     <!-- YUP Section -->
 
-    <section class="bottom-detail-section">
+    <section class="yup-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -205,15 +216,18 @@
             </div>
           </div>
           <div class="col-md-6">
-            <h5>Fala, galera! Eu sou o Yup.</h5>
-            <p>
-              E como você, também adoro ver tudo lá de cima. Tenho certeza de
-              que seremos ótimos parceiros de aventura. Vamos nessa?
-            </p>
-            <div class="action-holder">
-              <a href="#" class="btn primary-btn">Conheça o Yup</a>
-              <a href="#" class="btn neutral-btn">Quero conhecer ao vivo</a>
+            <div class="pool-content">
+              <h5 class="heading-4">Fala, galera! Eu sou o Yup.</h5>
+              <p class="body">
+                E como você, também adoro ver tudo lá de cima. Tenho certeza de
+                que seremos ótimos parceiros de aventura. Vamos nessa?
+              </p>
+              <div class="action-holder">
+                <a href="#" class="btn primary-btn">Conheça o Yup</a>
+                <a href="#" class="btn neutral-btn">Quero conhecer ao vivo</a>
+              </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -222,49 +236,55 @@
     <!-- Location Pool Section -->
 
     <section class="location-pool-section">
+      <img class="lateral-detail" src="img/detail-vertical.svg" />
       <div class="main-content">
-        <h5>Onde vai ser sua próxima aventura?</h5>
-        <p>
+        <h5 class="heading-4">Onde vai ser sua próxima aventura?</h5>
+        <p class="body">
           Clique abaixo no seu destino preferido e saiba tudo sobre ingressos,
           valores e muito mais.
         </p>
-      </div>
-      <!-- Wheel NAV -->
+        <!-- Wheel NAV -->
       <div class="wheel-nav">
         <!-- Wheel Card -->
         <div class="wheel-card rio">
           <a href="#" class="full-link"></a>
           <div class="wheel-content">
-            <h2>
+            <h2 class="heading-6">
               <strong>Rio de Janeiro</strong>A cidade maravilhosa vista de cima.
             </h2>
             <p>Ingressos e mais informações</p>
           </div>
-          <span class="arrow-link" class="icon icon-arrowright"></span>
+          <span class="arrow-link icon icon-arrow-right"></span>
+          <img src="img/rj.svg" />
         </div>
         <!-- Wheel Card -->
         <div class="wheel-card foz">
           <a href="#" class="full-link"></a>
           <div class="wheel-content">
-            <h2>
+            <h2 class="heading-6">
               <strong>Foz do Iguaçu</strong>A beleza natural vista de cima.
             </h2>
             <p>Ingressos e mais informações</p>
           </div>
-          <span class="arrow-link" class="icon icon-arrowright"></span>
+          <span class="arrow-link icon icon-arrow-right"></span>
+          <img src="img/foz.svg" />
         </div>
       </div>
+      
+      </div>
+      <img class="dotted-detail" src="img/dotted-detail-full.svg" />
+      
     </section>
 
     <!-- FOOTER -->
 
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="footer-info">
               <img src="img/footer-logo.png" class="footer-logo" />
-              <p>
+              <p class="body">
                 A Yup Star é para você voar alto, encantar-se com as cores do
                 céu, sonhar e voltar a ser criança!
               </p>
@@ -287,7 +307,7 @@
               >
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-8">
             <div class="row">
               <div class="col-md-6">
                 <nav class="footer-nav">
